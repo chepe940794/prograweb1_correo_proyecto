@@ -147,8 +147,8 @@ class User extends CI_Controller {
 		$email = $this->session->userdata('email');
 
 		$mail->From = $email;
-		$mail->FromName = "webMailUTN";
-		$mail->Subject = "verificacion";
+		$mail->FromName = "JMail";
+		$mail->Subject = "verificación de correo";
 		$mail->AltBody = "Este es un mensaje";
 
 		//$code = $_REQUEST['code'];
@@ -157,7 +157,7 @@ class User extends CI_Controller {
 		$id = $this->session->userdata('user_id');
 		$link = base_url() . "user/verificar/?code=$code&id=$id";
 
-		$mail->MsgHTML("<p>Dale click para verificar tu cuenta</p><a href=$link>Verificar codigo</a>");
+		$mail->MsgHTML("<p>Dale click para activar tu cuenta JMail</p><a href=$link>Verificar codigo</a>");
 
 		$mail->AddAddress($email);
 		$mail->IsHTML(true);
