@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" media="all">
 <p><br/></p>
 
 <div class="container">
@@ -14,6 +15,7 @@
       		<div class="tab-pare active " id="salida">
       		</div>
       		<br>
-      		<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Nuevo</button>
+      		<button type="button" class="btn btn-primary">Nuevo</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
       </div>
 </div>

@@ -8,7 +8,7 @@
 	<title><?php echo $title ?></title>
 
 	<link href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" media="all">
 </head>
 <body>
 	<div class="form-container">

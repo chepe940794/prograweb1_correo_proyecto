@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" media="all">
   <p><h1><center>Editar Correo</center></h1></p>
       <br/>
 
@@ -32,7 +33,7 @@ echo $e['id']; ?>">
 
     <div class="row">
       <div class="col-sm-offset-4 col-xs-4">
-        <button type="submit" class="btn btn-success btn-lg btn-block" name="update" >Modificar</button>
+        <button type="submit" class="btn btn-success btn-lg btn-block" name="update" >Editar</button>
       </div>
     </div>
   </br>

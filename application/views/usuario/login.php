@@ -1,5 +1,6 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" media="all">
 <div class="page-header"><center><h1>Bienvenidos a JMail</center></h1></div>
-
+<img src="http://www.sat-alifer.es/images/usuario.png" class="imagen">
 <center>
 <div class="container">
 <form class="form-horizontal" method="POST" action="<?php echo base_url(); ?>user/autenticar">
@@ -17,13 +18,13 @@
   </div>
   <div class="form-group">
     <div class="col-sm-offset-4 col-xs-4">
-      <button type="submit" class="btn btn-primary btn-lg btn-block" name="login">Iniciar sesión</button>
+      <button type="submit" class="btn btn-danger btn-lg btn-block" name="login">Iniciar sesión</button>
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-4 col-xs-4" >
 
-      <a href="<?php echo base_url(); ?>user/registrar">Crear Cuenta</a>
+
       </form>
     </div>
   </div>
