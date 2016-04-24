@@ -42,7 +42,7 @@ class User extends CI_Controller {
 			'email' => $email,
 		);
 
-		$this->load->model('model_user', 'user');
+		$this->load->model('model_usuario', 'user');
 		$check_user = $this->user->insersion($data);
 
 		if (!empty($check_user)) {
@@ -67,7 +67,7 @@ class User extends CI_Controller {
 
 	public function autenticar() {
 
-		$this->load->model('model_user', 'user');
+		$this->load->model('model_usuario', 'user');
 		$user = $this->input->post('nusername');
 		$pass = $this->input->post('npassword');
 		$encrip = md5($pass);
@@ -120,7 +120,7 @@ class User extends CI_Controller {
 	public function verificar() {
 		$code = $_REQUEST['code'];
 		$id = $_REQUEST['id'];
-		$this->load->model('model_user', 'user');
+		$this->load->model('model_usuario', 'user');
 		$this->user->verificando($code, $id);
 		$urln = base_url() . "user/login";
 		redirect($urln);

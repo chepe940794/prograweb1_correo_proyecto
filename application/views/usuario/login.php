@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" media="all">
 <div class="page-header"><center><h1>Bienvenidos a JMail</center></h1></div>
-<img src="http://www.sat-alifer.es/images/usuario.png" class="imagen">
+<center><img src="http://jmail.cc/assets/homepage/images/logo.png" class="imagen"></center>
 <center>
 <div class="container">
 <form class="form-horizontal" method="POST" action="<?php echo base_url(); ?>user/autenticar">

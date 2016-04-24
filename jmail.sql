@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-04-2016 a las 23:47:31
+-- Tiempo de generación: 24-04-2016 a las 17:28:53
 -- Versión del servidor: 10.1.10-MariaDB
 -- Versión de PHP: 7.0.3
 
@@ -40,8 +40,8 @@ CREATE TABLE `emails` (
 --
 
 INSERT INTO `emails` (`id`, `destinatario`, `iduser`, `mensaje`, `asunto`, `estado`) VALUES
-(1, 'chepe0794@hotmail.com', 75, 'uiu', 'hola', 'Enviado'),
-(2, 'chepe0794@hotmail.com', 75, 'asda', 'adasd', 'Enviado');
+(10, 'chepe0794@hotmail.com', 75, 'ioooo', 'hola', 'Enviado'),
+(11, 'chepe0794@hotmail.com', 75, 'fff', 'fff', 'Enviado');
 
 -- --------------------------------------------------------
 
@@ -90,7 +90,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `emails`
 --
 ALTER TABLE `emails`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT de la tabla `users`
 --

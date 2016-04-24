@@ -3,8 +3,8 @@
 	$username = ($this->session->userdata['logged_in']['username']);
 	$email = ($this->session->userdata['logged_in']['email']);
 }?>
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" media="all">
-<nav class="navbar navbar-default" role="navigation" id="nav">
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/imagen.css" media="all">
+<nav class="navbar navbar-inverse" role="navigation" id="nav">
      <div class="container-fluid">
 <!--header section -->
           <div class="navbar-header">
